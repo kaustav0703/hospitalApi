@@ -9,35 +9,6 @@ JSON Web Tokens (JWT)
 Folder Structure
 The project follows a scalable folder structure to keep code organized:
 
-bash
-Copy code
-hospital-api/
-│
-├── config/
-│   ├── config.js           # Configuration settings
-│   └── passport.js         # Passport authentication configuration
-│
-├── controllers/
-│   ├── doctorController.js # Controller for doctor-related operations
-│   ├── patientController.js# Controller for patient-related operations
-│   ├── reportController.js # Controller for report-related operations
-│   └── authController.js   # Controller for authentication
-│
-├── models/
-│   ├── Doctor.js           # Doctor schema
-│   ├── Patient.js          # Patient schema
-│   ├── Report.js           # Report schema
-│   └── User.js             # User schema (for authentication)
-│
-├── routes/
-│   ├── doctorRoutes.js     # Routes for doctor-related APIs
-│   ├── patientRoutes.js    # Routes for patient-related APIs
-│   ├── reportRoutes.js     # Routes for report-related APIs
-│   ├── authRoutes.js       # Routes for authentication
-│   └── index.js            # Main router
-│
-├── index.js                # Entry point of the application
-└── README.md               # Project documentation (this file)
 Setting Up the Project Locally
 Follow these steps to set up the project on your local system:
 
